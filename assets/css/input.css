@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.nav-list a {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 24px;
+    transition: all 0.3s ease-out;
+  }
+  
+  .nav-list a:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: all 0.3s ease-out;
+  }
+  
+  .nav-list a:hover:after {
+    left: 0;
+    right: 0;
+    width: 100%;
+  }
+
+.nav-img a {
+    padding-bottom: 24px;
+}
+  
+
+/* SECTION 2 STYLING */
+
+.containerrr {
+  width: 3000px;
+  
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.box {
+  display: inline-block;
+  /* width: 200px;
+  height: 200px; */
+  /* background-color: red; */
+  margin-right: 10px;
+}
+
+/* END OF SECTION 2 STYLING */
