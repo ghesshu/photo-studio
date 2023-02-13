@@ -9,3 +9,37 @@
 // nextButton.addEventListener('click', () => {
 //   track.scrollLeft += track.offsetWidth;
 // });
+
+
+
+// const prev = document.getElementById("prevClick")
+// const next = document.getElementById("nextClick")
+// const oList = document.getElementById("overflowList")
+
+
+
+// prev.addEventListener("click", function(){
+//     oList.scrollLeft -= 50;
+// });
+
+// next.addEventListener("click", function(){
+//     oList.scrollLeft += 50;
+// })
+
+const prev = document.getElementById("prevClick");
+const next = document.getElementById("nextClick");
+const overflowXScroll = document.getElementById("overflowList");
+
+prev.addEventListener("click", function() {
+  overflowXScroll.scrollBy({
+    left: -500, // 100 pixels to the left
+    behavior: "smooth"
+  });
+});
+
+next.addEventListener("click", function() {
+  overflowXScroll.scrollBy({
+    left: 500, // 100 pixels to the right
+    behavior: "smooth"
+  });
+});

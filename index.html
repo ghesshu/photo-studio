@@ -19,7 +19,7 @@
   <div class="absolute z-10 ">
   <nav class="fixed mx-auto px-6 w-screen pt-4 bg-white drop-shadow-xl">
   <div class="top-0 left-0">
-  <div class="flex items-center justify-between py-4">
+  <div class="flex items-center justify-between ">
     <!-- LOGO -->
     <div class="">
       <a href=""><img src="/assets/images/logo-b.gif" alt="" class="w-64"></a>
@@ -168,19 +168,9 @@ needs.
 
   <!-- Section Two Gallery -->
 
-  <section class=" flex items-center mt-24 px-8  max-w-screen-xl mx-auto">
-    <button className='z-10 pre-btn'>
-      <div className="p-2 md:p-4 bg-black bg-opacity-60 px-3 md:px-5  rounded- rounded-full ">
-      <img src="assets/images/Prev.svg" alt="" className='h-2 md:h-4 lg:h-6' />
-      </div>
-      </button>
+  <section class=" mt-24 px-8  max-w-screen-xl mx-auto">
 
-    <div class=" overflow-x-scroll slg:mx-20 z-0">
-
-      
-
-
-  
+    <!-- <div class=" overflow-x-scroll slg:mx-20 z-0">
       <div class="flex items-center justify-evenly pic-row space-x-6 containerrr">
         <div class="w-60 h-52 md:w-72  md:h-60 lg:w-80 lg:h-96 border-2 box"></div>
        <div class=" w-60 h-52 md:w-72 md:h-60 lg:w-80 lg:h-96 border-2 box"></div>
@@ -190,7 +180,32 @@ needs.
        <div class=" w-60 h-52 md:w-72 md:h-60 lg:w-80 lg:h-96 border-2 box"></div>
        <div class=" w-60 h-52 md:w-72 md:h-60 lg:w-80 lg:h-96 border-2 box"></div>
        <div class=" w-60 h-52 md:w-72 md:h-60 lg:w-80 lg:h-96 border-2 box"></div>
-      
+      </div> -->
+
+      <div class="flex justify-between items-center">
+
+        <div class="z-10"><button id="prevClick" class="h-14 w-14 bg-black opacity-40 rounded-full">
+        <img src="/assets/images/Prev.svg" alt="" class="h-6 smd:h-8 px-4">
+        </button></div>
+
+        <div id="overflowList" class="overflow-x-scroll slg:mx-14 z-0">
+        <div class="flex items-center justify-between pic-row space-x-6 containerrr">
+        <div class="w-60 h-52 md:w-72  md:h-60 lg:w-80 lg:h-96 border-2 box"></div>
+        <div class="w-60 h-52 md:w-72  md:h-60 lg:w-80 lg:h-96 border-2 box"></div>
+        <div class="w-60 h-52 md:w-72  md:h-60 lg:w-80 lg:h-96 border-2 box"></div>
+        <div class="w-60 h-52 md:w-72  md:h-60 lg:w-80 lg:h-96 border-2 box"></div>
+        <div class="w-60 h-52 md:w-72  md:h-60 lg:w-80 lg:h-96 border-2 box"></div>
+        <div class="w-60 h-52 md:w-72  md:h-60 lg:w-80 lg:h-96 border-2 box"></div>
+        <div class="w-60 h-52 md:w-72  md:h-60 lg:w-80 lg:h-96 border-2 box"></div>
+        <div class="w-60 h-52 md:w-72  md:h-60 lg:w-80 lg:h-96 border-2 box"></div>
+        <div class="w-60 h-52 md:w-72  md:h-60 lg:w-80 lg:h-96 border-2 box"></div>
+        </div>
+        </div>
+
+
+        <div class="z-10"><button id="nextClick" class="h-14 w-14 bg-black opacity-40 rounded-full">
+          <img src="/assets/images/Next.svg" alt="" class="h-8 pl-5 pr-4">
+        </button></div>
       </div>
       
   
@@ -382,8 +397,9 @@ needs.
 
 <!-- Footer-->
 
-<footer class="pt-24 px-8 bg-black text-white max-w-screen-xl mx-auto space-y-8">
+<footer class="pt-24 px-8 bg-black text-white space-y-8">
 
+  <div class=" max-w-screen-xl mx-auto">
   <div class="grid grid-cols-2 md:grid-cols-4 justify-items-center">
     <!-- GRID 1 -->
     <div class="space-y-2 py-4">
@@ -414,7 +430,6 @@ needs.
         <li><a href="#">Studio Rentals</a></li>
         <li><a class="hover:text-white" href="#">Photography</a></li>
         <li><a class="hover:text-white" href="#">Retouching</a></li>
-        <li><a class="hover:text-white" href="#">Retouching</a></li>
         <li><a class="hover:text-white" href="#">Graphic Designing</a></li>
         <li><a class="hover:text-white" href="#">Consulting</a></li>
         <li><a class="hover:text-white" href="#">I.T & Tech</a></li>
@@ -441,6 +456,7 @@ needs.
 
   <div class="text-center text-sm py-4">
     Copyright 2023 <strong>Creative Studio Academy</strong>. Powered by <strong>Rixrod</strong>.
+  </div>
   </div>
 </footer>
 
