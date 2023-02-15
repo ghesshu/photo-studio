@@ -4298,6 +4298,10 @@ textarea.form-control.is-invalid {
   border-width: 0px;
 }
 
+.border {
+  border-width: 1px;
+}
+
 .border-l-2 {
   border-left-width: 2px;
 }
@@ -4327,6 +4331,11 @@ textarea.form-control.is-invalid {
 .border-black {
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
+.border-lightdark {
+  --tw-border-opacity: 1;
+  border-color: rgb(52 52 52 / var(--tw-border-opacity));
 }
 
 .bg-white {
@@ -4443,6 +4452,10 @@ textarea.form-control.is-invalid {
 
 .pb-12 {
   padding-bottom: 3rem;
+}
+
+.pb-1 {
+  padding-bottom: 0.25rem;
 }
 
 .text-center {
@@ -4610,6 +4623,11 @@ body{
 .hover\:text-lightdark:hover {
   --tw-text-opacity: 1;
   color: rgb(52 52 52 / var(--tw-text-opacity));
+}
+
+.hover\:text-black:hover {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .hover\:no-underline:hover {
