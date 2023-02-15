@@ -1,3 +1,6 @@
+import 'tw-elements';
+
+
 // const track = document.querySelector('.slider-track');
 // const prevButton = document.querySelector('.btn-prev');
 // const nextButton = document.querySelector('.btn-next');
