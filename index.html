@@ -22,7 +22,7 @@
   <div class="flex items-center justify-between ">
     <!-- LOGO -->
     <div class="py-4 lg:py-0 ">
-      <a href=""><img src="/assets/images/logo-b.gif" alt="" class="w-64"></a>
+      <a href=""><img src="/assets/images/logo-b.gif" alt="" class="w-44 md:w-64"></a>
     </div>
 
     <div class="hidden flex-col text-sm space-y-4  lg:flex">
@@ -125,7 +125,7 @@
       data-bs-target="#carouselExampleIndicators"
       data-bs-slide="prev"
     >
-      <div class="bg-black p-3 rounded-2xl"><span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span></div>
+      <div class="hidden md:block bg-black p-3 rounded-2xl"><span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span></div>
       <span class="visually-hidden">Previous</span>
     </button>
     <button
@@ -135,7 +135,7 @@
       data-bs-slide="next"
     >
    
-      <div class="bg-black p-3 rounded-2xl">
+      <div class="hidden md:flex bg-black p-3 rounded-2xl">
         <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
       </div>
@@ -144,7 +144,7 @@
   </div>
 
   <!-- Section One -->
-  <section class="mt-24 mx-auto px-8 space-y-14  max-w-screen-xl">
+  <section class="mt-24 mx-auto px-3 smd:px-8 space-y-14  max-w-screen-xl">
   <div class="text-lightdark space-y-6">
   <h1 class="font font-extralight text-xl md:text-2xl">WELCOME TO CREATIVE ACADEMY</h1>
   <p class="font-extralight text-lg">
@@ -167,7 +167,7 @@ needs.
 
   <!-- Section Two Gallery -->
 
-  <section class=" mt-24 px-8  max-w-screen-xl mx-auto">
+  <section class=" mt-24 px-4 smd:px-8  max-w-screen-xl mx-auto">
 
     <!-- <div class=" overflow-x-scroll slg:mx-20 z-0">
       <div class="flex items-center justify-evenly pic-row space-x-6 containerrr">
@@ -181,15 +181,15 @@ needs.
        <div class=" w-60 h-52 md:w-72 md:h-60 lg:w-80 lg:h-96 border-2 box"></div>
       </div> -->
 
-      <div class="flex justify-between items-center">
+      <div class=" flex justify-between items-center">
 
-        <div class="z-10"><button id="prevClick" class="h-14 w-14 bg-black opacity-40 rounded-full">
+        <div class="z-10 "><button id="prevClick" class=" h-10 w-10 md:h-14 md:w-14 bg-black opacity-40 rounded-full">
         <img src="/assets/images/Prev.svg" alt="" class="h-6 smd:h-8 px-4">
         </button></div>
 
-        <div id="overflowList" class="overflow-x-scroll slg:mx-14 z-0">
-        <div class=" px-9 md:px-0 flex items-center justify-between pic-row space-x-6 containerrr">
-        <div class="w-60 h-52 md:w-72  md:h-60 lg:w-80 lg:h-96 border-2 box"></div>
+        <div id="overflowList" class=" overflow-x-scroll xl:mx-14 z-0">
+        <div class="  md:px-0 flex items-center justify-between pic-row containerrr">
+        <div class=" ml-4 smd:ml-0 w-60 h-52 md:w-72  md:h-60 lg:w-80 lg:h-96 border-2 box"></div>
         <div class="w-60 h-52 md:w-72  md:h-60 lg:w-80 lg:h-96 border-2 box"></div>
         <div class="w-60 h-52 md:w-72  md:h-60 lg:w-80 lg:h-96 border-2 box"></div>
         <div class="w-60 h-52 md:w-72  md:h-60 lg:w-80 lg:h-96 border-2 box"></div>
@@ -202,8 +202,8 @@ needs.
         </div>
 
 
-        <div class="z-10"><button id="nextClick" class="h-14 w-14 bg-black opacity-40 rounded-full">
-          <img src="/assets/images/Next.svg" alt="" class="h-8 pl-5 pr-4">
+        <div class="z-10"><button id="nextClick" class=" h-10 w-10 md:h-14 md:w-14 bg-black opacity-40 rounded-full">
+          <img src="/assets/images/Next.svg" alt="" class="h-8 pl-4 pr-4">
         </button></div>
       </div>
       
@@ -213,7 +213,7 @@ needs.
 
 
 <!-- Section Three -->
-<section class="mt-24 mx-auto px-8 space-y-14  max-w-screen-xl">
+<section class="mt-24 mx-auto px-4 smd:px-8 space-y-14  max-w-screen-xl">
   <div class="text-lightdark space-y-6">
   <h1 class="font font-extralight text-xl md:text-2xl">COMMERCIAL SERVICES</h1>
   <p class="font-extralight text-lg">
@@ -246,7 +246,7 @@ needs.
 
   <!-- Section Three-->
 
-  <section class="mt-24 px-8  max-w-screen-xl mx-auto">
+  <section class="mt-24 px-4 smd:px-8  max-w-screen-xl mx-auto">
 
       <div class="flex justify-center md:justify-between items-center text-lightdark font-extralight flex-wrap space-y-4 md:space-y-0">
 
@@ -326,7 +326,7 @@ needs.
 
  <!-- Section Four-->
 
- <section class="mt-24 px-8  max-w-screen-xl mx-auto">
+ <section class="mt-24 px-4 smd:px-8 max-w-screen-xl mx-auto">
   <h1 class="pb-12 font-bold text-center text-2xl">LATEST NEWS</h1>
   <div class="grid md:grid-cols-2 lg:grid-cols-3 justify-items-center text-lg text-lightdark font-extralight ">
 
@@ -396,7 +396,7 @@ needs.
 
 <!-- Footer-->
 
-<footer class="pt-24 px-8 bg-black text-white space-y-8">
+<footer class="pt-24 px-2 smd:px-8 bg-black text-white space-y-8">
 
   <div class=" max-w-screen-xl mx-auto">
   <div class="grid grid-cols-2 md:grid-cols-4 justify-items-center">
