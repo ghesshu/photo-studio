@@ -43,3 +43,6 @@ next.addEventListener("click", function() {
     behavior: "smooth"
   });
 });
+
+
+
