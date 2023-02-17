@@ -1,4 +1,4 @@
-import 'tw-elements';
+// import 'tw-elements';
 
 
 // const track = document.querySelector('.slider-track');
