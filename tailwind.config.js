@@ -18,7 +18,7 @@ module.exports = {
         softdark: '#818181',
         softyellow: ' #FFFAE9',
         orange: '#C79D33'
-      }
+      } 
     },
   },
   plugins: [
