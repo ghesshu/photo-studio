@@ -4660,10 +4660,6 @@ body{
     height: 2rem;
   }
 
-  .smd\:w-60 {
-    width: 15rem;
-  }
-
   .smd\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
@@ -4744,11 +4740,6 @@ body{
   .slg\:mx-20 {
     margin-left: 5rem;
     margin-right: 5rem;
-  }
-
-  .slg\:mx-14 {
-    margin-left: 3.5rem;
-    margin-right: 3.5rem;
   }
 
   .slg\:mt-16 {
