@@ -22,7 +22,8 @@ module.exports = {
     },
   },
   plugins: [
-    require('./node_modules/tw-elements/dist/plugin')
+    require('tw-elements/dist/plugin')
+    // require('./node_modules/tw-elements/dist/plugin')
     // require('./node_modules/tw-elements/dist/plugin')
   ],
 }
