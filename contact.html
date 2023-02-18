@@ -4,83 +4,92 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="stylesheet" href="/assets/css/custom.css">
+    
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+    <!-- <link rel="stylesheet" href="/assets/css/custom.css"> -->
+    
 </head>
 <body>
-     <!-- Navbar -->
     <div class="">
-        <div class="absolute z-10 ">
-            <nav class="fixed mx-auto px-6 w-screen pt-4 bg-white drop-shadow-xl">
-            <div class="top-0 left-0">
-            <div class="flex items-center justify-between ">
-              <!-- LOGO -->
-              <div class="py-4 lg:py-0 ">
-                <a href=""><img src="/assets/images/logo-b.gif" alt="" class="w-36 md:w-52 xl:w-64"></a>
-              </div>
-          
-              <div class="hidden flex-col text-sm space-y-4  lg:flex">
-          
-              <div class="flex space-x-3 items-center justify-end">
-                <div class="flex items-center space-x-2">
-                <img src="/assets/images/telephone.png" alt="telephone" class="h-4">
-                <h1>0250000000</h1>
-                </div>
-          
-                <div class="flex items-center space-x-2 border-l-2 border-r-2 border-orange px-2">
-                <img src="/assets/images/mail.png" alt="telephone" class="h-4">
-                <h1>info@creativestudio.academy</h1>
-                </div>
-          
-                <div class="flex items-center space-x-2">
-                <a href="facebook.com"><img src="/assets/images/facebook.png" alt="" class="h-4"></a>
-                <a href="instagram.com"><img src="/assets/images/black-instagram.gif" alt="" class="h-4"></a>
-                <a href="twitter.com"><img src="/assets/images/twitter.png" alt="" class="h-4"></a>
-                <a href="#"><img src="/assets/images/message.png" alt="" class="h-4"></a>  
-                </div>
-          
-          
-                </div>
-          
-              <div class="flex space-x-4 items-center">
-                <div class="flex items-center justify-between text-sm nav-list text-lightdark">
-                  <a href="#" class="px-4">HOME</a>
-                  <a href="/about.html" class="px-4">ABOUT US</a>
-                  <a href="/index.html" class="px-4">HOME</a>
-                  <a href="#" class="px-4">COMMUNITY</a>
-                  <a href="#" class="px-4">PRODUCTION</a>
-                  <a href="#" class="px-4">BOOKINGS</a>
-                  <a href="#" class="px-4">NEWS</a>
-                  <a href="/contact.html" class="px-4">CONTACT</a>
-                </div>
-          
-                <div class="flex space-x-4 items-center nav-img">
-                  <a href="#"><img src="/assets/images/search.png" alt="" class="h-4"></a>
-                  <a href=""><img src="/assets/images/shopping-bag.png" alt="" class="h-4"></a>
-                </div>
-                </div>
-              </div>
-          
-              
+        <!-- Navbar -->
+       <!-- Navbar -->
+    <div class="">
+      <div class="absolute z-10 ">
+          <nav class="fixed mx-auto px-6 w-screen pt-4 bg-white drop-shadow-xl">
+          <div class="top-0 left-0">
+          <div class="flex items-start lg:items-center justify-between ">
+            <!-- LOGO -->
+            <div class="py-4 lg:py-0 ">
+              <a href=""><img src="/assets/images/logo-b.gif" alt="" class="w-28 md:w-52 xl:w-64"></a>
             </div>
+        
+            <div id="menu-list" class=" hidden flex-col text-sm space-y-4   lg:flex">
+        
+            <div class="hidden space-x-3 items-center justify-end lg:flex">
+              <div class="flex items-center space-x-2">
+              <img src="/assets/images/telephone.png" alt="telephone" class="h-4">
+              <a href="tel:025000000"><h1>+233 (0)250000000</h1></a>
+              </div>
+        
+              <div class="flex items-center space-x-2 border-l-2 border-r-2 border-orange px-2">
+              <img src="/assets/images/mail.png" alt="telephone" class="h-4">
+              <a href="mailto:info@creativestudio.academy"><h1>info@creativestudio.academy</h1></a>
+              </div>
+        
+              <div class="flex items-center space-x-2">
+              <a href="facebook.com"><img src="/assets/images/facebook.png" alt="" class="h-4"></a>
+              <a href="instagram.com"><img src="/assets/images/black-instagram.gif" alt="" class="h-4"></a>
+              <a href="twitter.com"><img src="/assets/images/twitter.png" alt="" class="h-4"></a>
+              <a href="#"><img src="/assets/images/message.png" alt="" class="h-4"></a>  
+              </div>
+        
+        
+              </div>
+        
+            <div class=" mt-14 absolute lg:static  flex flex-col lg:flex-row space-y-2 lg:space-y-0 lg:space-x-0 lg:mt-0 items-center">
+              <div class="mt-6  bg-white  px-14 py-4 lg:p-0 lg:mt-0 flex flex-col lg:flex-row lg:items-center  justify-between  text-sm nav-list text-lightdark space-y-2 lg:space-x-0">
+                <a href="/index.html" class="px-4">HOME</a>
+                <a href="/about.html" class="px-4">ABOUT US</a>
+                <a href="#" class="px-4">COMMUNITY</a>
+                <a href="#" class="px-4">PRODUCTION</a>
+                <a href="/faq.html" class="px-4">FAQ</a>
+                <a href="/services.html" class="px-4">SERVICES</a>
+                <a href="/contact.html" class="px-4">CONTACT</a>
+              </div>
+        
+              <div class="flex px-14 py-4 bg-white lg:p-0  space-x-24 lg:space-x-4 items-center nav-img">
+                <a href="#"><img src="/assets/images/search.png" alt="" class="h-4"></a>
+                <a href=""><img src="/assets/images/shopping-bag.png" alt="" class="h-4"></a>
+              </div>
+              </div>
+            </div>
+        
+          <button id="menu-btn" class="lg:hidden">
+            <img id="m-open" src="/assets/images/menu.png" alt="" class="h-11 md md:h-12 slg:h-14">
+          <img id="m-close" src="/assets/images/close.png" alt="" class=" hidden h-5 md:h-7">
+          </button>    
           </div>
-            </nav>
         </div>
+          </nav>
+      </div>
+
+    
+  </div>
 
         <div class=""><img src="/assets/images/images.jpeg" alt="" class="object-cover w-full h-4/6"></div>
 
     </div>
+
+    <!-- Section One -->
+
     
-    <!-- START OF PAGE CONTENT -->
-
-   <div class="">
-
-   </div>
-
-    <!-- END OF PAGE CONTENT -->
 
     <!-- SECTION 3 -->
-    <section class="mt-24 px-6 max-w-screen-lg mx-auto">
+    <section 
+    data-aos="fade-up"
+    data-aos-anchor-placement="bottom-bottom"
+    class="mt-24 px-6 max-w-screen-lg mx-auto">
         <div class="space-y-7 bg-black text-white py-8 text-center">
           <h1 class="font-bold text-2xl">Join Our Newsletter</h1>
           <p class="text-sm font-light text-">Subscribe and stay up to date with our latest activities 
@@ -105,7 +114,7 @@
       <!-- Footer-->
       
       <footer class="pt-24 px-8 bg-black text-white space-y-8">
-      
+      <footer>
         <div class=" max-w-screen-xl mx-auto">
         <div class="grid grid-cols-2 md:grid-cols-4 justify-items-center">
           <!-- GRID 1 -->
@@ -153,9 +162,9 @@
             </ul>
             <div class="flex space-x-2 items-center">
               <img src="/assets/images/facebook-white.png" alt="" class="h-4 ">
-              <img src="/assets/images/black-instagram-white.gif" alt="" class="h-4">
-              <img src="/assets/images/twitter-white.PNG" alt="" class="h-4">
-              <img src="/assets/images/message-white.PNG" alt="" class="h-4">
+              <img src="/assets/images/instagram-white.png" alt="" class="h-4">
+              <img src="/assets/images/twitter-white.png" alt="" class="h-4">
+              <img src="/assets/images/message-white.png" alt="" class="h-4">
             </div>
           </div>
         </div>
@@ -163,10 +172,12 @@
       
         <div class="text-center text-sm py-4">
           Copyright 2023 <strong>Creative Studio Academy</strong>. Powered by <strong>Rixrod</strong>.
-        </div>
+        </div> 
         </div>
       </footer>
 
-      <script defer src="/assets/js/faq.js"></script>
+
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script src="/assets/js/about.js"></script>
 </body>
 </html>

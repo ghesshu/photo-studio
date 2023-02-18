@@ -61,8 +61,40 @@ body{
 
 /* END OF SECTION 2 STYLING */
 
+button{
+  transition: 1s; 
+  transition: background 1s, transform 1s 1s ease-in-out;
+}
+
+
+/* button:hover{
+  background: salmon;
+} */
+
 .pap{
   position: relative;
   top: -50px;
   transition: top 0.5s ease-in-out;
 }
+
+/* FAQ STYLES */
+.pop{
+  animation: popup 1s ease-in-out;
+  /* transform: translateY(200px); */
+  /* top: -40px;
+  left: 0;
+  animation-name: drive;
+  animation: duration 3s; */
+
+}
+
+/* .pop{
+  background: salmon;
+  transform: rotate(360deg);
+} */
+
+@keyframes drive{
+  from{transform: translateX(-200px);}
+  to{transform: translateX(1400px);}
+}
+

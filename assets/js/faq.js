@@ -15,6 +15,8 @@ button.addEventListener('click', (e)=> {
     plus.classList.toggle("hidden");
     minus.classList.toggle("hidden");
     text.classList.toggle("hidden");
+    // text.classList.add("pop");
+    AOS.refresh();
 })
 
 // faq 2
@@ -29,6 +31,7 @@ button2.addEventListener('click', (e)=> {
     plus2.classList.toggle("hidden");
     minus2.classList.toggle("hidden");
     text2.classList.toggle("hidden");
+    text.classList.add("pop")
 })
 
 // FAQ 3
@@ -113,6 +116,19 @@ button8.addEventListener('click', (e)=> {
     plus8.classList.toggle("hidden");
     minus8.classList.toggle("hidden");
     text8.classList.toggle("hidden");
+})
+
+
+// FAQ HARMBURGER MENU
+const mbtn = document.getElementById('menu-btn');
+const mlist = document.getElementById('menu-list');
+const mopen = document.getElementById('m-open');
+const mclose = document.getElementById('m-close');
+
+mbtn.addEventListener('click', (e)=>{
+    mlist.classList.toggle("hidden");
+    mclose.classList.toggle("hidden")
+    mopen.classList.toggle("hidden")
 })
 
 

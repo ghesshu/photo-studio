@@ -14,23 +14,23 @@
         <div class="absolute z-10 ">
             <nav class="fixed mx-auto px-6 w-screen pt-4 bg-white drop-shadow-xl">
             <div class="top-0 left-0">
-            <div class="flex items-center justify-between ">
+            <div class="flex items-start lg:items-center justify-between ">
               <!-- LOGO -->
               <div class="py-4 lg:py-0 ">
-                <a href=""><img src="/assets/images/logo-b.gif" alt="" class="w-36 md:w-52 xl:w-64"></a>
+                <a href=""><img src="/assets/images/logo-b.gif" alt="" class="w-28 md:w-52 xl:w-64"></a>
               </div>
           
-              <div class="hidden flex-col text-sm space-y-4  lg:flex">
+              <div id="menu-list" class="tr -translate-x-28 hidden flex-col text-sm space-y-4   lg:flex">
           
-              <div class="flex space-x-3 items-center justify-end">
+              <div class="hidden space-x-3 items-center justify-end lg:flex">
                 <div class="flex items-center space-x-2">
                 <img src="/assets/images/telephone.png" alt="telephone" class="h-4">
-                <h1>0250000000</h1>
+                <a href="tel:025000000"><h1>+233 (0)250000000</h1></a>
                 </div>
           
                 <div class="flex items-center space-x-2 border-l-2 border-r-2 border-orange px-2">
                 <img src="/assets/images/mail.png" alt="telephone" class="h-4">
-                <h1>info@creativestudio.academy</h1>
+                <a href="mailto:info@creativestudio.academy"><h1>info@creativestudio.academy</h1></a>
                 </div>
           
                 <div class="flex items-center space-x-2">
@@ -43,9 +43,10 @@
           
                 </div>
           
-              <div class="flex space-x-4 items-center">
-                <div class="flex items-center justify-between text-sm nav-list text-lightdark">
+              <div class=" mt-14 absolute lg:static  flex flex-col lg:flex-row space-y-2 lg:space-y-0 lg:space-x- lg:mt-0 items-center">
+                <div class="mt-6  bg-white  px-14 py-4 lg:p-0 lg:mt-0 flex flex-col lg:flex-row lg:items-center  justify-between  text-sm nav-list text-lightdark space-y-2 lg:space-x-0">
                   <a href="/index.html" class="px-4">HOME</a>
+                  
                   <a href="/about.html" class="px-4">ABOUT US</a>
                   <a href="#" class="px-4">COMMUNITY</a>
                   <a href="#" class="px-4">PRODUCTION</a>
@@ -54,20 +55,23 @@
                   <a href="/contact.html" class="px-4">CONTACT</a>
                 </div>
           
-                <div class="flex space-x-4 items-center nav-img">
+                <div class="flex px-14 py-4 bg-white lg:p-0  space-x-24 lg:space-x-4 items-center nav-img">
                   <a href="#"><img src="/assets/images/search.png" alt="" class="h-4"></a>
                   <a href=""><img src="/assets/images/shopping-bag.png" alt="" class="h-4"></a>
                 </div>
                 </div>
               </div>
           
-              
+            <button id="menu-btn" class="lg:hidden">
+              <img id="m-open" src="/assets/images/menu.png" alt="" class="h-11 md md:h-12 slg:h-14">
+            <img id="m-close" src="/assets/images/close.png" alt="" class=" hidden h-5 md:h-7">
+            </button>    
             </div>
           </div>
             </nav>
         </div>
 
-        <div class=""><img src="/assets/images/images.jpeg" alt="" class="object-cover w-full h-4/6"></div>
+        <div  class=""><img src="/assets/images/images.jpeg" alt="" class="object-cover w-full h-4/6"></div>
 
     </div>
     
@@ -86,13 +90,13 @@
         <button  id="faq-button" class=" f-button text-center font-bold border-2 border-black text-2xl rounded-full hover:bg-black hover:text-white overflow-hidden f__btn">
 
         <h1 id="f-plus" class="  p-2 px-4 text-center faq-plus f__plus">+</h1>
-        <h1 id="f-minus" class=" hidden text-white p-2 px-5 bg-black text-center f__minus">-</h1>
+        <h1 id="f-minus" class=" hidden p-2 px-5  text-center f__minus">-</h1>
         </button>
         <h1 class=" text-lightdark font-extralight" >Does the studio hire include lighting equiqment?</h1>    
         </div>
 
         <div id="faq-text" class="hidden p-4 font-extralight text-lightdark">
-        <p>
+        <p data-aos="fade-up">
         Photography studio hire includes 4 Bowens flash lights you will also be provided with a radio trigger that will connect with your sir. Full list of equiqments for Studio 1 <br> film studio hire includes 2 video lights with florescent day light, ideal for interviews. LED lighting come with an additional charge of #50 for 2 Panels. <br> Please contact us for a full list of lighting equiqment that can be hired and deivered to the studio <br>
         info@creativestudios.com
         </p>
@@ -104,11 +108,11 @@
     data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="1200"
-    class="flex flex-col space-y-2 border-b-2 pb-2">
+    class="flex flex-col space-y-2 border-b-2 pb-2 ">
         <div class="flex space-x-3 items-center">
         <button id="faq-button2" class=" f-button text-center font-bold border-2 border-black text-2xl rounded-full hover:bg-black hover:text-white overflow-hidden">
         <h1 id="f-plus2" class=" p-2 px-4 text-center faq-plus">+</h1>
-        <h1 id="f-minus2" class=" hidden text-white p-2 px-5 bg-black text-center">-</h1>
+        <h1 id="f-minus2" class=" hidden p-2 px-5 text-center">-</h1>
         </button>
         <h1 class=" text-lightdark font-extralight" >Does the studio hire include lighting equiqment?</h1>    
         </div>
@@ -129,7 +133,7 @@
         <div class="flex space-x-3 items-center">
         <button id="faq-button3" class=" text-center font-bold border-2 border-black text-2xl rounded-full hover:bg-black hover:text-white overflow-hidden">
         <h1 id="f-plus3" class=" p-2 px-4 text-center">+</h1>
-        <h1 id="f-minus3" class="hidden text-white p-2 px-5 bg-black text-center">-</h1>
+        <h1 id="f-minus3" class="hidden p-2 px-5 text-center">-</h1>
         </button>
         <h1 class=" text-lightdark font-extralight" >Does the studio hire include lighting equiqment?</h1>    
         </div>
@@ -151,7 +155,7 @@
         <div class="flex space-x-3 items-center">
         <button id="faq-button4" class=" text-center font-bold border-2 border-black text-2xl rounded-full  hover:bg-black hover:text-white overflow-hidden">
         <h1 id="f-plus4" class=" p-2 px-4 text-center">+</h1>
-        <h1 id="f-minus4" class="hidden text-white p-2 px-5 bg-black text-center">-</h1>
+        <h1 id="f-minus4" class="hidden p-2 px-5 text-center">-</h1>
         </button>
         <h1 class=" text-lightdark font-extralight" >Does the studio hire include lighting equiqment?</h1>    
         </div>
@@ -173,7 +177,7 @@
         <div class="flex space-x-3 items-center">
         <button id="faq-button5" class=" text-center font-bold border-2 border-black text-2xl rounded-full hover:bg-black hover:text-white overflow-hidden">
         <h1 id="f-plus5" class=" p-2 px-4 text-center">+</h1>
-        <h1 id="f-minus5" class="hidden text-white p-2 px-5 bg-black text-center">-</h1>
+        <h1 id="f-minus5" class="hidden p-2 px-5 text-center">-</h1>
         </button>
         <h1 class=" text-lightdark font-extralight" >Does the studio hire include lighting equiqment?</h1>    
         </div>
@@ -195,7 +199,7 @@
         <div class="flex space-x-3 items-center">
         <button id="faq-button6" class=" text-center font-bold border-2 border-black text-2xl rounded-full hover:bg-black hover:text-white overflow-hidden">
         <h1 id="f-plus6" class=" p-2 px-4 text-center">+</h1>
-        <h1 id="f-minus6" class="hidden text-white p-2 px-5 bg-black text-center">-</h1>
+        <h1 id="f-minus6" class="hidden p-2 px-5 text-center">-</h1>
         </button>
         <h1 class=" text-lightdark font-extralight" >Does the studio hire include lighting equiqment?</h1>    
         </div>
@@ -217,7 +221,7 @@
         <div class="flex space-x-3 items-center">
         <button id="faq-button7" class=" text-center font-bold border-2 border-black text-2xl rounded-full hover:bg-black hover:text-white overflow-hidden">
         <h1 id="f-plus7" class=" p-2 px-4 text-center">+</h1>
-        <h1 id="f-minus7" class="hidden text-white p-2 px-5 bg-black text-center">-</h1>
+        <h1 id="f-minus7" class="hidden p-2 px-5 text-center">-</h1>
         </button>
         <h1 class=" text-lightdark font-extralight" >Does the studio hire include lighting equiqment?</h1>    
         </div>
@@ -239,7 +243,7 @@
         <div class="flex space-x-3 items-center">
         <button id="faq-button8" class=" text-center font-bold border-2 border-black text-2xl rounded-full hover:bg-black hover:text-white overflow-hidden">
         <h1 id="f-plus8" class=" p-2 px-4 text-center">+</h1>
-        <h1 id="f-minus8" class="hidden text-white p-2 px-5 bg-black text-center">-</h1>
+        <h1 id="f-minus8" class="hidden p-2 px-5 text-center">-</h1>
         </button>
         <h1 class=" text-lightdark font-extralight" >Does the studio hire include lighting equiqment?</h1>    
         </div>
@@ -337,10 +341,10 @@
               <li><a class="hover:text-white" href="#">Barbecue Hangout in Aburi</a></li>
             </ul>
             <div class="flex space-x-2 items-center">
-              <img src="/assets/images/facebook-white.png" alt="" class="h-4 ">
-              <img src="/assets/images/black-instagram-white.gif" alt="" class="h-4">
-              <img src="/assets/images/twitter-white.PNG" alt="" class="h-4">
-              <img src="/assets/images/message-white.PNG" alt="" class="h-4">
+              <a href="https://facebook.com"><img src="/assets/images/facebook-white.png" alt="" class="h-4 "></a>
+              <a href="https://instagram.com"><img src="/assets/images/instagram-white.png" alt="" class="h-4"></a>
+              <a href="https://twitter.com"><img src="/assets/images/twitter-white.PNG" alt="" class="h-4"></a>
+             <a href="https://messages.com"> <img src="/assets/images/message-white.PNG" alt="" class="h-4"></a>
             </div>
           </div>
         </div>

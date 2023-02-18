@@ -18,7 +18,16 @@ module.exports = {
         softdark: '#818181',
         softyellow: ' #FFFAE9',
         orange: '#C79D33'
-      } 
+      }, 
+      
+      keyframes: {
+        popup: {
+          'from': { transform: 'translateY(200px)' },
+          'to': { transform: 'translateY(0)' },
+        },
+        // Other keyframes
+      },
+
     },
   },
   plugins: [
