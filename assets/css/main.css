@@ -4435,6 +4435,11 @@ textarea.form-control.is-invalid {
   padding-bottom: 1.5rem;
 }
 
+.py-14 {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
 .pt-4 {
   padding-top: 1rem;
 }
@@ -4728,6 +4733,16 @@ body{
   .md\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  .md\:py-14 {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+  }
+
+  .md\:py-24 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
   }
 
   .md\:text-2xl {

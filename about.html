@@ -4,8 +4,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="stylesheet" href="/assets/css/custom.css">
+    
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+    <!-- <link rel="stylesheet" href="/assets/css/custom.css"> -->
+    
 </head>
 <body>
     <div class="">
@@ -71,8 +74,13 @@
     </div>
 
     <!-- Section One -->
-    <section class="mt-24 mx-auto px-8 space-y-14  max-w-screen-xl">
-    <div class="text-lightdark space-y-6">
+    <section 
+    
+     class="mt-24 mx-auto px-8 space-y-14  max-w-screen-xl">
+    <div 
+    data-aos="fade-up"
+    data-aos-duration="5000"
+    class="text-lightdark space-y-6">
     <h1 class="font font-extralight text-xl md:text-2xl">WELCOME TO CREATIVE ACADEMY</h1>
     <p class="font-extralight text-lg">
       Creative Academy is a group creatives working together to start a relaxed environment to inspire the newer generation of creatives.
@@ -82,7 +90,10 @@
     </p>
     </div>
   
-    <div class="text-lightdark space-y-6">
+    <div
+    data-aos="fade-up"
+    data-aos-duration="5000"
+    class="text-lightdark space-y-6">
       <h1 class="font font-extralight text-xl md:text-2xl">STUDIO HIRE</h1>
     <p class="font-extralight text-lg">
       Our studio spaces comes with the use of in-house equipment and an array of services to make your shoot run smoothly. With
@@ -91,7 +102,9 @@
     </p>
     </div>
 
-    <div class="flex justify-center">
+    <div 
+    data-aos="flip-left"
+    class="flex justify-center">
         <img src="/assets/images/images.jpeg" alt="" class=" w-4/6 h-72 object-cover  ">
     </div>
     </section>
@@ -99,7 +112,9 @@
 
     <!-- SECTION 2 -->
     <section class="mt-24 mx-auto px-8 space-y-14  max-w-screen-xl">
-    <div class="text-lightdark space-y-6">
+    <div 
+    data-aos="fade-up"
+    data-aos-duration="5000" class="text-lightdark space-y-6">
         <h1 class="font font-extralight text-xl md:text-2xl">OUR JOURNEY</h1>
         <p class="font-extralight text-lg">
             Our journey started in 2022, when we started training programs like photo-walks, Health-walks, conferences, hangouts, workshops,
@@ -113,15 +128,27 @@
         </p>
     </div>
 
-    <div class="flex  flex-col  slg:flex-row justify-between items-center   lg:justify-between space-y-14 md:space-y-0   ">
-        <div class="border-2 w-72 h-72 md:w-52 md:h-52 lg:w-72 lg:h-72 p-4"></div>
-        <div class="border-2 w-72 h-72 md:w-52 md:h-52 lg:w-72 lg:h-72 p-4 slg:mt-16"></div>
-        <div class="border-2 w-72 h-72 md:w-52 md:h-52 lg:w-72 lg:h-72 p-4"></div>
+    <div class="flex  flex-col  slg:flex-row justify-between items-center   lg:justify-between space-y-14 md:space-y-0 md:py-24  ">
+        <div 
+        data-aos="fade-down"
+        data-aos-duration="5000"
+        class="border-2 w-72 h-72 md:w-52 md:h-52 lg:w-72 lg:h-72 p-4"></div>
+        <div
+        data-aos="fade-up"
+        data-aos-duration="5000"
+        class="border-2 w-72 h-72 md:w-52 md:h-52 lg:w-72 lg:h-72 p-4 slg:mt-16"></div>
+        <div
+        data-aos="fade-down"
+        data-aos-duration="5000"
+        class="border-2 w-72 h-72 md:w-52 md:h-52 lg:w-72 lg:h-72 p-4"></div>
     </div>
     </section>
 
     <!-- SECTION 3 -->
-    <section class="mt-24 px-6 max-w-screen-lg mx-auto">
+    <section 
+    data-aos="fade-up"
+    data-aos-anchor-placement="bottom-bottom"
+    class="mt-24 px-6 max-w-screen-lg mx-auto">
         <div class="space-y-7 bg-black text-white py-8 text-center">
           <h1 class="font-bold text-2xl">Join Our Newsletter</h1>
           <p class="text-sm font-light text-">Subscribe and stay up to date with our latest activities 
@@ -207,5 +234,9 @@
         </div>
         </div>
       </footer>
+
+
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script src="/assets/js/about.js"></script>
 </body>
 </html>

@@ -1,3 +1,8 @@
+AOS.init({
+    duration: 1000,
+      delay: 200,
+  });
+
 // FAQ 1
 const button = document.getElementById('faq-button');
 const plus = document.getElementById('f-plus');

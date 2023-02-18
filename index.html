@@ -4,6 +4,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
   <link rel="stylesheet" href="/assets/css/main.css">
   <!-- <link rel="stylesheet" href="/assets/css/custom.css"> -->
 </head>
@@ -144,7 +145,10 @@
   </div>
 
   <!-- Section One -->
-  <section class="mt-24 mx-auto px-3 smd:px-8 space-y-14  max-w-screen-xl">
+  <section
+  data-aos="fade-up"
+  data-aos-duration="5000" 
+  class="mt-24 mx-auto px-3 smd:px-8 space-y-14  max-w-screen-xl">
   <div class="text-lightdark space-y-6">
   <h1 class="font font-extralight text-xl md:text-2xl">WELCOME TO CREATIVE ACADEMY</h1>
   <p class="font-extralight text-lg">
@@ -167,7 +171,7 @@ needs.
 
   <!-- Section Two Gallery -->
 
-  <section class=" mt-24 px-4 smd:px-8  max-w-screen-xl mx-auto">
+  <section data-aos="zoom-in-up" class=" mt-24 px-4 smd:px-8  max-w-screen-xl mx-auto">
 
     <!-- <div class=" overflow-x-scroll slg:mx-20 z-0">
       <div class="flex items-center justify-evenly pic-row space-x-6 containerrr">
@@ -213,7 +217,10 @@ needs.
 
 
 <!-- Section Three -->
-<section class="mt-24 mx-auto px-4 smd:px-8 space-y-14  max-w-screen-xl">
+<section 
+data-aos="fade-up"
+data-aos-duration="5000" 
+class="mt-24 mx-auto px-4 smd:px-8 space-y-14  max-w-screen-xl">
   <div class="text-lightdark space-y-6">
   <h1 class="font font-extralight text-xl md:text-2xl">COMMERCIAL SERVICES</h1>
   <p class="font-extralight text-lg">
@@ -246,7 +253,7 @@ needs.
 
   <!-- Section Three-->
 
-  <section class="mt-24 px-4 smd:px-8  max-w-screen-xl mx-auto">
+  <section data-aos="zoom-in-up" class="mt-24 px-4 smd:px-8  max-w-screen-xl mx-auto">
 
       <div class="flex justify-center md:justify-between items-center text-lightdark font-extralight flex-wrap space-y-4 md:space-y-0">
 
@@ -326,7 +333,9 @@ needs.
 
  <!-- Section Four-->
 
- <section class="mt-24 px-4 smd:px-8 max-w-screen-xl mx-auto">
+ <section data-aos="fade-down"
+ data-aos-easing="linear"
+ data-aos-duration="1500" class="mt-24 px-4 smd:px-8 max-w-screen-xl mx-auto">
   <h1 class="pb-12 font-bold text-center text-2xl">LATEST NEWS</h1>
   <div class="grid md:grid-cols-2 lg:grid-cols-3 justify-items-center text-lg text-lightdark font-extralight ">
 
@@ -372,7 +381,9 @@ needs.
 
  <!-- Section Five-->
 
- <section class="mt-24 px-8 py- max-w-screen-lg mx-auto">
+ <section 
+ data-aos="fade-up"
+ data-aos-anchor-placement="bottom-bottom" class="mt-24 px-8 py- max-w-screen-lg mx-auto">
   <div class="space-y-7 bg-black text-white py-8 text-center">
     <h1 class="font-bold text-2xl">Join Our Newsletter</h1>
     <p class="text-sm text-ligh">Subscribe and stay up to date with our latest activities 
@@ -396,7 +407,8 @@ needs.
 
 <!-- Footer-->
 
-<footer class="pt-24 px-2 smd:px-8 bg-black text-white space-y-8">
+<footer
+class="pt-24 px-2 smd:px-8 bg-black text-white space-y-8">
 
   <div class=" max-w-screen-xl mx-auto">
   <div class="grid grid-cols-2 md:grid-cols-4 justify-items-center">
@@ -468,7 +480,11 @@ needs.
 <!-- Web components polyfill for cross-browser compatibility -->
 <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2.4.3/bundles/webcomponents-sd-ce.js"></script>
 
-<!-- tw-elements JavaScript bundle -->
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+
+  
+</script>
 <script type="module" src="/node_modules/tw-elements/dist/js/index.min.js"></script>
 <script src="./node_modules/tw-elements/dist/js/index.min.js.map"></script>
 
