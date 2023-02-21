@@ -8,6 +8,10 @@ body{
 
 }
 
+.x-scrolll::-webkit-scrollbar{
+  display: none;
+}
+
 .nav-list a {
     display: inline-block;
     position: relative;

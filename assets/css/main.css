@@ -4004,6 +4004,11 @@ textarea.form-control.is-invalid {
   margin-right: 1rem;
 }
 
+.mx-8 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
 .mt-14 {
   margin-top: 3.5rem;
 }
@@ -4022,6 +4027,14 @@ textarea.form-control.is-invalid {
 
 .ml-4 {
   margin-left: 1rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-0 {
+  margin-top: 0px;
 }
 
 .block {
@@ -4112,6 +4125,12 @@ textarea.form-control.is-invalid {
   height: 100%;
 }
 
+.h-max {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
 .w-screen {
   width: 100vw;
 }
@@ -4124,20 +4143,8 @@ textarea.form-control.is-invalid {
   width: 100%;
 }
 
-.w-4\/6 {
-  width: 66.666667%;
-}
-
 .w-72 {
   width: 18rem;
-}
-
-.w-36 {
-  width: 9rem;
-}
-
-.w-44 {
-  width: 11rem;
 }
 
 .w-60 {
@@ -4162,21 +4169,6 @@ textarea.form-control.is-invalid {
 
 .grow {
   flex-grow: 1;
-}
-
-.translate-x-11 {
-  --tw-translate-x: 2.75rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.translate-x-44 {
-  --tw-translate-x: 11rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.-translate-x-44 {
-  --tw-translate-x: -11rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .-translate-x-28 {
@@ -4320,6 +4312,12 @@ textarea.form-control.is-invalid {
   margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
 }
 
+.space-y-0 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0px * var(--tw-space-y-reverse));
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
@@ -4350,6 +4348,10 @@ textarea.form-control.is-invalid {
 
 .border-0 {
   border-width: 0px;
+}
+
+.border {
+  border-width: 1px;
 }
 
 .border-l-2 {
@@ -4538,6 +4540,11 @@ textarea.form-control.is-invalid {
   line-height: 2rem;
 }
 
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
@@ -4607,6 +4614,10 @@ textarea.form-control.is-invalid {
 body{
   font-family: 'Be Vietnam Pro', sans-serif;
   font-family: 'Inter', sans-serif;
+}
+
+.x-scrolll::-webkit-scrollbar{
+  display: none;
 }
 
 .nav-list a {
@@ -4761,11 +4772,6 @@ button{
     height: 2rem;
   }
 
-  .smd\:px-8 {
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-
   .smd\:px-4 {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -4776,9 +4782,9 @@ button{
     padding-right: 1.25rem;
   }
 
-  .smd\:px-6 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+  .smd\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 }
 
@@ -4815,12 +4821,12 @@ button{
     width: 13rem;
   }
 
-  .md\:w-96 {
-    width: 24rem;
+  .md\:w-4\/6 {
+    width: 66.666667%;
   }
 
-  .md\:w-64 {
-    width: 16rem;
+  .md\:w-96 {
+    width: 24rem;
   }
 
   .md\:w-72 {
@@ -4837,6 +4843,10 @@ button{
 
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:flex-row-reverse {
+    flex-direction: row-reverse;
   }
 
   .md\:justify-between {
@@ -4857,11 +4867,6 @@ button{
   .md\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
-  }
-
-  .md\:px-4 {
-    padding-left: 1rem;
-    padding-right: 1rem;
   }
 
   .md\:text-2xl {
@@ -4938,6 +4943,10 @@ button{
     width: 20rem;
   }
 
+  .lg\:w-1\/2 {
+    width: 50%;
+  }
+
   .lg\:-translate-x-0 {
     --tw-translate-x: -0px;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -4953,6 +4962,10 @@ button{
 
   .lg\:flex-row {
     flex-direction: row;
+  }
+
+  .lg\:flex-row-reverse {
+    flex-direction: row-reverse;
   }
 
   .lg\:items-center {
@@ -4985,6 +4998,10 @@ button{
     padding: 0px;
   }
 
+  .lg\:p-8 {
+    padding: 2rem;
+  }
+
   .lg\:py-0 {
     padding-top: 0px;
     padding-bottom: 0px;
@@ -4992,13 +5009,64 @@ button{
 }
 
 @media (min-width: 1280px) {
+  .xl\:static {
+    position: static;
+  }
+
   .xl\:mx-14 {
     margin-left: 3.5rem;
     margin-right: 3.5rem;
   }
 
+  .xl\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .xl\:flex {
+    display: flex;
+  }
+
+  .xl\:hidden {
+    display: none;
+  }
+
   .xl\:w-64 {
     width: 16rem;
+  }
+
+  .xl\:flex-row {
+    flex-direction: row;
+  }
+
+  .xl\:items-center {
+    align-items: center;
+  }
+
+  .xl\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(0px * var(--tw-space-y-reverse));
+  }
+
+  .xl\:space-x-4 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(1rem * var(--tw-space-x-reverse));
+    margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .xl\:space-x-0 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(0px * var(--tw-space-x-reverse));
+    margin-left: calc(0px * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .xl\:p-0 {
+    padding: 0px;
+  }
+
+  .xl\:py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 }
 
