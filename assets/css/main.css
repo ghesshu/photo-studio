@@ -4838,6 +4838,10 @@ button{
     height: 3.5rem;
   }
 
+  .md\:h-72 {
+    height: 18rem;
+  }
+
   .md\:w-52 {
     width: 13rem;
   }
